@@ -1,0 +1,116 @@
+body {
+  background-color: #2F2F2F; }
+
+.App {
+  text-align: center; }
+
+.bLB, .bTB, .bRB, .bBB, .bLR, .bTR, .bRR, .bBR {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.bLB {
+  border-left: 3px solid blue; }
+
+.bTB {
+  border-top: 3px solid blue; }
+
+.bRB {
+  border-right: 3px solid blue; }
+
+.bBB {
+  border-bottom: 3px solid blue; }
+
+.bLR {
+  border-left: 3px solid red; }
+
+.bTR {
+  border-top: 3px solid red; }
+
+.bRR {
+  border-right: 3px solid red; }
+
+.bBR {
+  border-bottom: 3px solid red; }
+
+.singularBox {
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  position: relative; }
+
+.container {
+  height: 700px;
+  width: 700px;
+  background-color: antiquewhite;
+  padding: 0;
+  margin: 1em auto;
+  line-height: 0; }
+
+.rotate-button {
+  transform: rotate(90deg); }
+
+.left-button {
+  float: left;
+  border: none;
+  position: absolute;
+  margin: 0;
+  left: -26px;
+  top: 28px;
+  height: 10px;
+  width: 50px;
+  opacity: 0; }
+
+.left-button:hover {
+  background-color: green;
+  opacity: 1;
+  border-radius: 25%; }
+
+.top-button:hover {
+  background-color: green;
+  opacity: 1;
+  border-radius: 25%; }
+
+.right-button:hover {
+  background-color: green;
+  opacity: 1;
+  border-radius: 25%; }
+
+.bottom-button:hover {
+  background-color: green;
+  opacity: 1;
+  border-radius: 25%; }
+
+.top-button {
+  float: top;
+  border: none;
+  position: absolute;
+  margin: 0;
+  left: 9px;
+  top: -7px;
+  height: 10px;
+  width: 50px;
+  opacity: 0; }
+
+.right-button {
+  float: top;
+  border: none;
+  position: absolute;
+  margin: 0;
+  right: -27px;
+  bottom: 29px;
+  height: 10px;
+  width: 50px;
+  opacity: 0; }
+
+.bottom-button {
+  float: top;
+  border: none;
+  position: absolute;
+  margin: 0;
+  right: 8px;
+  bottom: -6px;
+  height: 10px;
+  width: 50px;
+  opacity: 0; }
