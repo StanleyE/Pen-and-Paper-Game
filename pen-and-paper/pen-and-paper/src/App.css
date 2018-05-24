@@ -4,16 +4,16 @@ body {
 .App {
   text-align: center; }
 
-.bLTB, .bAll, .btrb, .blbb {
+.bltb, .ball, .btrb, .blbb {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
-.bLTB {
+.bltb {
   border-left: 3px solid white;
   border-top: 3px solid white; }
 
-.bAll {
+.ball {
   border: 3px solid white; }
 
 .btrb {
