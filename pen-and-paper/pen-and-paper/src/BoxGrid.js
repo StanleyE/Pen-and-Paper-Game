@@ -10,16 +10,16 @@ class BoxGrid extends Component {
         let boxJsx = [];
         for (let i = 1; i <= 100; i++) {
             if(i%10 === 0 && i<100){
-            boxJsx.push( < Boxten id = {i}/>)
+            boxJsx.push( < Boxten id = {i} />)
             }
             else if (i > 90 && i < 100){
-            boxJsx.push( < BoxNiner id = {i}/>)
+            boxJsx.push( < BoxNiner id = {i} />)
             } 
             else if (i === 100) {
-            boxJsx.push( < BoxHund id = {i}/>)                
+            boxJsx.push( < BoxHund id = {i} turn = {this.props.turn}/>)                
             } 
             else {
-            boxJsx.push( < Box id = {i}/>)
+            boxJsx.push( < Box id = {i} />)
                 
             }
         }

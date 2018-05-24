@@ -4,34 +4,27 @@ body {
 .App {
   text-align: center; }
 
-.bLB, .bTB, .bRB, .bBB, .bLR, .bTR, .bRR, .bBR {
+.bLTB, .bAll, .btrb, .blbb {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
-.bLB {
-  border-left: 3px solid blue; }
+.bLTB {
+  border-left: 3px solid white;
+  border-top: 3px solid white; }
 
-.bTB {
-  border-top: 3px solid blue; }
+.bAll {
+  border: 3px solid white; }
 
-.bRB {
-  border-right: 3px solid blue; }
+.btrb {
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  border-left: 3px solid white; }
 
-.bBB {
-  border-bottom: 3px solid blue; }
-
-.bLR {
-  border-left: 3px solid red; }
-
-.bTR {
-  border-top: 3px solid red; }
-
-.bRR {
-  border-right: 3px solid red; }
-
-.bBR {
-  border-bottom: 3px solid red; }
+.blbb {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white; }
 
 .singularBox {
   background-color: white;
@@ -114,3 +107,133 @@ body {
   height: 10px;
   width: 50px;
   opacity: 0; }
+
+.dot {
+  background: #2F2F2F;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  top: -5px;
+  left: -5px; }
+
+.dotRight {
+  background: #2F2F2F;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  top: -5px;
+  right: -5px; }
+
+.dotBottom {
+  background: #2F2F2F;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  bottom: -5px;
+  left: -5px; }
+
+.dotHund {
+  background: #2F2F2F;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  bottom: -5px;
+  right: -5px; }
+
+.blc1 {
+  border-left-color: red; }
+
+.brc1 {
+  border-right-color: red; }
+
+.btc1 {
+  border-top-color: red; }
+
+.bbc1 {
+  border-bottom-color: red; }
+
+.blc2 {
+  border-left-color: blue; }
+
+.brc2 {
+  border-right-color: blue; }
+
+.btc2 {
+  border-top-color: blue; }
+
+.bbc2 {
+  border-bottom-color: blue; }
+
+.blc3 {
+  border-left-color: green; }
+
+.brc3 {
+  border-right-color: green; }
+
+.btc3 {
+  border-top-color: green; }
+
+.bbc3 {
+  border-bottom-color: green; }
+
+.blc4 {
+  border-left-color: purple; }
+
+.brc4 {
+  border-right-color: purple; }
+
+.btc4 {
+  border-top-color: purple; }
+
+.bbc4 {
+  border-bottom-color: purple; }
+
+.blc5 {
+  border-left-color: Yellow; }
+
+.brc5 {
+  border-right-color: Yellow; }
+
+.btc5 {
+  border-top-color: Yellow; }
+
+.bbc5 {
+  border-bottom-color: Yellow; }
+
+.blc6 {
+  border-left-color: Pink; }
+
+.brc6 {
+  border-right-color: Pink; }
+
+.btc6 {
+  border-top-color: Pink; }
+
+.bbc6 {
+  border-bottom-color: Pink; }
+
+.bx1 {
+  background-color: red; }
+
+.bx2 {
+  background-color: blue; }
+
+.bx3 {
+  background-color: green; }
+
+.bx4 {
+  background-color: purple; }
+
+.bx5 {
+  background-color: Yellow; }
+
+.bx6 {
+  background-color: Pink; }

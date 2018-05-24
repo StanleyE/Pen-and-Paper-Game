@@ -1,5 +1,10 @@
-$ColorOne: red;
-$ColorTwo: blue;
+$Color1: red;
+$Color2: blue;
+$Color3: green;
+$Color4: purple;
+$Color5: Yellow;
+$Color6: Pink;
+$ColorDefault: white;
 
 body {
     background-color: #2F2F2F;
@@ -13,39 +18,58 @@ body {
     -webkit-box-sizing: border-box;
   }
 
-  .bLB {
+  .bLTB {
     @extend %sharedBorder;
-    border-left: 3px solid $ColorTwo;
-  }
-  .bTB {
-    @extend %sharedBorder;
-    border-top: 3px solid $ColorTwo;
-  } 
-  .bRB {
-    @extend %sharedBorder;
-    border-right: 3px solid $ColorTwo;
-  } 
-  .bBB {
-    @extend %sharedBorder;
-    border-bottom: 3px solid $ColorTwo;
+    border-left: 3px solid $ColorDefault;
+    border-top: 3px solid $ColorDefault;
   }
 
-  .bLR {
+  .bAll {
     @extend %sharedBorder;
-    border-left: 3px solid $ColorOne;
+    border: 3px solid $ColorDefault;
   }
-  .bTR {
+  .btrb{
     @extend %sharedBorder;
-    border-top: 3px solid $ColorOne;
-  } 
-  .bRR {
-    @extend %sharedBorder;
-    border-right: 3px solid $ColorOne;
-  } 
-  .bBR {
-    @extend %sharedBorder;
-    border-bottom: 3px solid $ColorOne;
+    border-right: 3px solid $ColorDefault;
+    border-top: 3px solid $ColorDefault;
+    border-left: 3px solid $ColorDefault;
   }
+  .blbb{
+    @extend %sharedBorder;
+    border-top: 3px solid $ColorDefault;
+    border-bottom: 3px solid $ColorDefault;
+    border-left: 3px solid $ColorDefault;
+  }
+
+  // .bTB {
+  //   @extend %sharedBorder;
+  //   border-top: 3px solid $Color2;
+  // } 
+  // .bRB {
+  //   @extend %sharedBorder;
+  //   border-right: 3px solid $Color2;
+  // } 
+  // .bBB {
+  //   @extend %sharedBorder;
+  //   border-bottom: 3px solid $Color2;
+  // }
+
+  // .bLR {
+  //   @extend %sharedBorder;
+  //   border-left: 3px solid;
+  // }
+  // .bTR {
+  //   @extend %sharedBorder;
+  //   border-top: 3px solid;
+  // } 
+  // .bRR {
+  //   @extend %sharedBorder;
+  //   border-right: 3px solid;
+  // } 
+  // .bBR {
+  //   @extend %sharedBorder;
+  //   border-bottom: 3px solid;
+  // }
   
   .singularBox{
     background-color: white;
@@ -141,3 +165,150 @@ body {
     opacity: 0;
   }
   
+
+  .dot {
+    background: #2F2F2F;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+  }
+
+  .dotRight {
+    background: #2F2F2F;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+
+  .dotBottom {
+    background: #2F2F2F;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+  }
+
+  .dotHund {
+    background: #2F2F2F;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+  }
+
+  // bc == Border Color based on player pref.
+  .blc1 {
+    border-left-color: $Color1
+  }
+  .brc1{
+    border-right-color: $Color1
+  }
+  .btc1 {
+    border-top-color: $Color1
+  }
+  .bbc1{
+    border-bottom-color: $Color1
+  }
+
+
+  .blc2 {
+    border-left-color: $Color2
+  }
+  .brc2{
+    border-right-color: $Color2
+  }
+  .btc2 {
+    border-top-color: $Color2
+  }
+  .bbc2{
+    border-bottom-color: $Color2
+  }
+
+  .blc3 {
+    border-left-color: $Color3
+  }
+  .brc3{
+    border-right-color: $Color3
+  }
+  .btc3 {
+    border-top-color: $Color3
+  }
+  .bbc3{
+    border-bottom-color: $Color3
+  }
+
+  .blc4 {
+    border-left-color: $Color4
+  } 
+  .brc4{
+    border-right-color: $Color4
+  }
+  .btc4 {
+    border-top-color: $Color4
+  }
+  .bbc4{
+    border-bottom-color: $Color4
+  }
+
+  .blc5 {
+    border-left-color: $Color5
+  }
+  .brc5{
+    border-right-color: $Color5
+  }
+  .btc5 {
+    border-top-color: $Color5
+  }
+  .bbc5{
+    border-bottom-color: $Color5
+  }
+  .blc6 {
+    border-left-color: $Color6
+  }
+  .brc6{
+    border-right-color: $Color6
+  }
+  .btc6 {
+    border-top-color: $Color6
+  }
+  .bbc6{
+    border-bottom-color: $Color6
+  }
+
+    // bx == Box Color based on player pref.
+    .bx1 {
+      background-color: $Color1
+    }
+  
+    .bx2 {
+      background-color: $Color2
+    }
+  
+    .bx3 {
+      background-color: $Color3
+    }
+  
+    .bx4 {
+      background-color: $Color4
+    } 
+  
+    .bx5 {
+      background-color: $Color5
+    }
+    .bx6 {
+      background-color: $Color6
+    }
